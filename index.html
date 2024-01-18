@@ -365,7 +365,7 @@ window.addEventListener('load',ezDetectAardvark);</script>
 <nav class="nav navbar-top primary">
     <h2 class="nav_logo">
     <i class="fas fa-code"></i>
-        <span> Online IDE <sup>beta</sup> </span>
+        <span> Online Compiler</span>
     </h2>
     
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -386,8 +386,9 @@ window.addEventListener('load',ezDetectAardvark);</script>
         <div class="btn-group">
             <button type="button" class="btn btn-default btn-custom" id="open_file" onclick="openFile(dispFile)" data-toggle="tooltip" data-container="body" data-placement="right" title="Open File from Disk"><i class="fas fa-folder-open"></i></button>
             <button type="button" class="btn btn-default btn-custom" onclick="save_code_modal()" id="save_file" data-toggle="tooltip" data-container="body" data-placement="right" title="Save File to Disk - F9"><i class="fas fa-save"></i></button>
-            <button type="button" class="btn btn-default btn-custom" onclick="share_code_modal()" data-toggle="tooltip" data-container="body" data-placement="right" title="Share Code - F10"><i class="fas fa-share-alt"></i></button>
-        </div>
+            
+		
+	</div>
 
         <div class="btn-group setting-btn" role="group">
             <button type="button" class="btn btn-default" id="toggle-theme" data-toggle="tooltip" data-container="body" data-placement="left" title="Change Theme"><i class="fas fa-moon fa-lg"></i></button>
@@ -437,9 +438,9 @@ window.addEventListener('load',ezDetectAardvark);</script>
         <div class="boxed1" id="output_header">
             <div id="hint-section"></div>
             <div class="btn-group status" id="tool-btn">
-                <button type="button" data-toggle="tooltip" data-container="body" data-placement="right" title="Copy to Clipboard" class="btn btn-default btn-sm status" onclick="copy_output()"><i class="fas fa-copy"></i></button>
-                <button type="button" data-toggle="tooltip" data-container="body" data-placement="right" title="Download" class="btn btn-default btn-sm status" onclick="download_modal()"><i class="fas fa-download"></i></button>
-                <button type="button" data-toggle="tooltip" data-container="body" data-placement="right" title="Clear" class="btn btn-default btn-sm status" onclick="clear_output()"><i class="fas fa-eraser"></i></button>
+               
+		    
+	    <button type="button" data-toggle="tooltip" data-container="body" data-placement="right" title="Clear" class="btn btn-default btn-sm status" onclick="clear_output()"><i class="fas fa-eraser"></i></button>
             </div>
             <button type="button" data-toggle="tooltip" data-container="body" data-placement="right" title="Expand/Collapse" class="btn btn-default btn-sm status" id="term-expand" onclick="term_expand()"><i class="fas fa-expand-alt fa-lg"></i></button>
              
